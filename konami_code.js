@@ -11,7 +11,7 @@ function init() {
          index ++;
 
          if (index === code.length) {
-
+             console.console.log();
 
              index = 0;
          }
