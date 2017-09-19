@@ -6,3 +6,5 @@ function init() {
      alert("Hello"); 
   });
 }
+
+init();
