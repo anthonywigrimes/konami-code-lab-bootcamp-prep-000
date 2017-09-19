@@ -7,7 +7,9 @@ function init() {
   document.addEventListener("keydown", function(e) {
      const key = parseInt(e.detail || e.which);
 
-     if (key === )
+     if (key === ) {
+         
+     }
   });
 }
 
