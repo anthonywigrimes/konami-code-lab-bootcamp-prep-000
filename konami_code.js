@@ -5,7 +5,9 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
   document.addEventListener("keydown", function(e) {
-     
+     const key = parseInt(e.detail || e.which);
+
+     alert(key);
   });
 }
 
