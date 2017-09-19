@@ -7,8 +7,16 @@ function init() {
   document.addEventListener("keydown", function(e) {
      const key = parseInt(e.detail || e.which);
 
-     if (key === ) {
-         
+     if (key === code[index]) {
+         index ++;
+
+         if (index === code.length) {
+
+
+             index = 0;
+         }
+     } else {
+         index = 0;
      }
   });
 }
