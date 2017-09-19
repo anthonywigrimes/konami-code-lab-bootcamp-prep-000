@@ -10,7 +10,7 @@ function init() {
      if (key === code[index]) {
          index ++;
 
-         if (index === code.length) {
+         if (index === code.length - 1) {
              window.alert("YOU DID IT!");
 
              index = 0;
